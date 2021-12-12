@@ -1,0 +1,80 @@
+.bg-pink {
+    background-color: pink;
+}
+
+main {
+    /*margin: 50px;*/
+    padding-top: 100px;
+    color: white;
+}
+
+body{
+    background-color: gainsboro;
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-image: url('https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg');
+    background-size: cover;
+}
+
+/*
+nav{
+    background-color: pink;
+    border-radius: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: pink;
+    padding: 20px 10px;
+    margin: 10px 0;
+}
+
+nav ul ul{
+    display: none;
+}
+
+nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 20px;
+}
+*/
+
+.card_view {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_view .content{
+    flex: 1 1 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    /*background-color: DarkSalmon;*/
+    color: white;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+    /*background: grey; */
+}
+
+.blackText{
+    color: black;
+}
+.whiteText{
+    color: white;
+}
+.paddingTop{
+    padding-top: 20px;
+}
